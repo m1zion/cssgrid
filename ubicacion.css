@@ -1,0 +1,46 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px; /*3Columnas de 150px*/
+    grid-template-rows: 75px 75px 75px;  /*Auto Define el tamaño de cualquier fila*/
+    place-content: center; /*Alineamos Vertical y Horizontal*/
+
+    grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main";
+
+}
+  
+  .item {
+    font-size: 4rem;
+  }
+
+  .item-1{
+    border:5px solid green;
+    background-color: blue;
+
+
+   /* grid-column-start: 1; /*Empieza linea 1*/
+   /* grid-column-end: 4; /*Termina linea 4*/
+
+    grid-area: header; /*Usan frid area, es el mismo resultado que arriba*/
+
+  }
+  .item-2{
+    border:5px solid green;
+    background-color: blue;
+
+
+    grid-row: 2 / 4; /*empieza en la 2 y termina en la 4*/
+  }
+
+  .item-3{
+    border:5px solid green;
+    background-color: blue;
+
+
+    grid-area: 2 / 2 / 4 / 4; /*fila comienza columna comienza fila termina columna termina*/
+  }
+

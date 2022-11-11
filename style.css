@@ -1,0 +1,18 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px; /*3Columnas de 150px*/
+    grid-auto-rows: 150px;  /*Auto Define el tamaño de cualquier fila*/
+    /*grid-auto-flow: column; /*Crea nuevas columnas*/
+    gap: 15px;
+    height: 600px; 
+    place-content: center; /*Alineamos Vertical y Horizontal*/
+    place-items: end; /*Pone los items al final, en la esquina*/
+  }
+  
+  .item {
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+  }
+
