@@ -19,3 +19,15 @@ Para las columnas, las propiedades que nos van a ayudar son:
 grid-column-start: con esta propiedad nosotros vamos a decirle al elemento en que línea de columna debe comenzar.
 grid-column-end: con esta propiedad nosotros vamos a decirle al elemento hasta que línea de la columna va a llegar.
 grid-column: es una mezcla de grid-column-start y grid-column-end. Los valores que necesita son el valor inicial y el valor final, estos van separados de un “/” (diagonal).
+
+
+Clase 6
+min-max tamaño minimo y maximo
+repeat: 
+
+clase 7 keywords
+fr: una fraccion de la grilla
+min-content: que el contenido sea lo mas chico posible
+max-content:  que el contenido sea lo mas alto posible
+auto-fit : ensancha las columnas para que ocupen todo el espacio del contenedor.
+auto-fill y auto-fit: ayudan a la grilla a ocupar el 100% del espacio disponible.
